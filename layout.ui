@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>969</width>
+    <height>699</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>15</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>652</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="11" column="4">
+     <widget class="QListWidget" name="listofuser"/>
+    </item>
+    <item row="6" column="0" rowspan="2">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Pesel</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0" rowspan="2" colspan="3">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Imie</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="1">
+     <widget class="QPushButton" name="pushButton_savetofile">
+      <property name="text">
+       <string>Zapisz do pliku</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="0" colspan="5">
+     <widget class="QCheckBox" name="umowaoprace">
+      <property name="text">
+       <string>Umowa o pracę</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="0">
+     <widget class="QPushButton" name="save">
+      <property name="text">
+       <string>zapisz</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="4">
+     <widget class="QLineEdit" name="secondname"/>
+    </item>
+    <item row="1" column="4">
+     <widget class="QLineEdit" name="name"/>
+    </item>
+    <item row="2" column="0" rowspan="2" colspan="4">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Nazwisko</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="4">
+     <widget class="QLineEdit" name="numberofphone"/>
+    </item>
+    <item row="4" column="0" colspan="4">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Numer telefonu</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="7" rowspan="3">
+     <layout class="QVBoxLayout" name="verticalLayout"/>
+    </item>
+    <item row="10" column="4">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>Użytkownicy z peselem</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="4">
+     <widget class="QLineEdit" name="pesel">
+      <property name="maxLength">
+       <number>11</number>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
