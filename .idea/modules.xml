@@ -3,10 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Daneusera.iml" filepath="$PROJECT_DIR$/.idea/Daneusera.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../calculator/.idea/calculator.iml" filepath="$PROJECT_DIR$/../calculator/.idea/calculator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../checkbox/.idea/checkbox.iml" filepath="$PROJECT_DIR$/../checkbox/.idea/checkbox.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../listwidget/.idea/listwidget.iml" filepath="$PROJECT_DIR$/../listwidget/.idea/listwidget.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../rejestracja/.idea/rejestracja.iml" filepath="$PROJECT_DIR$/../rejestracja/.idea/rejestracja.iml" />
     </modules>
   </component>
 </project>

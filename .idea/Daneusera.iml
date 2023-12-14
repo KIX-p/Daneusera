@@ -6,9 +6,5 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="listwidget" />
-    <orderEntry type="module" module-name="calculator" />
-    <orderEntry type="module" module-name="rejestracja" />
-    <orderEntry type="module" module-name="checkbox" />
   </component>
 </module>
