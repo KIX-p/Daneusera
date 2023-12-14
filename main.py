@@ -29,11 +29,17 @@ class MyForm(QDialog):
             suma_kontrolna = sum(int(pesel[i]) * waga[i] for i in range(10))
             numer_kontrolny = (10 - (suma_kontrolna % 10)) % 10
 
+
+            if name == "" or secondname == "" or pesel == "" or numbertl == "":
+                blad = QMessageBox()
+                blad.setText("Pola wymagane")
+                blad.exec()
+
             if len(pesel) != 11 or not pesel.isnumeric():
                 blad = QMessageBox()
                 blad.setText("Pesel nie zawiera numeru lub nie ma 11 znaków")
                 blad.exec()
-                return
+
 
             if numer_kontrolny == int(pesel[10]):
                 self.ui.listofuser.addItem(dane)
